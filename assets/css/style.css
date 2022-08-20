@@ -6,6 +6,8 @@ header{
     margin-top: 10%;
     background-color: black;
     color: beige;
+    margin-left: 0%;
+    margin-right: 0%;
    }
 header img{
     float: left;
@@ -13,10 +15,26 @@ header img{
 p{
     text-justify:inherit;
     text-align: justify;
+    
 }
 h1{
     text-align: center;
 }
-.trabajos h2{
+ h2{
     color: bisque;
 }
+h4{
+ color: blanchedalmond;
+ text-align: left; 
+}
+footer{
+    background-color: darkcyan;
+    color: bisque;
+        background-color: var(--white);
+    }
+    
+    p.derechos {
+        font-size: 16px;
+        padding-bottom: 22px;
+        text-align: center;
+    }
