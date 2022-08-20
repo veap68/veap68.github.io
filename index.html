@@ -13,10 +13,11 @@
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
-    <title>Hello, world!</title>
+    <title>Portafolio</title>
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+data-bs-smooth-scroll="true" class="scrollspy-example bg-dark p-3 rounded-2" tabindex="0">
 
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #4fb3b3;">
         <div class="container-fluid">
@@ -33,14 +34,12 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#scrollspyHeading1">Sobre mi</a>
                     </li>
+                    
                     <li class="nav-item">
-                        <a class="nav-link" href="#scrollspyHeading2">Experiencias</a>
+                        <a class="nav-link" href="#scrollspyHeading2">Trabajos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#scrollspyHeading3">Trabajos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#scrollspyHeading4">Contacto</a>
+                        <a class="nav-link" href="#scrollspyHeading3">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -49,9 +48,9 @@
 
 
     <header>
-        <img src="/assets/img/android-chrome-192x192.png" alt="yo">
+        <img id="scrollspyHeading1"src="/assets/img/android-chrome-192x192.png" alt="yo">
 
-        <h1>Veronica Aguilera</h1>
+        <h1 >Veronica Aguilera</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
@@ -66,22 +65,106 @@
 
 
     </header>
-    <section>
-        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
-            data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
-            <h4 id="scrollspyHeading1">First heading</h4>
-            <p>...</p>
-            <h4 id="scrollspyHeading2">Second heading</h4>
-            <p>...</p>
-            <h4 id="scrollspyHeading3">Third heading</h4>
-            <p>...</p>
-            <h4 id="scrollspyHeading4">Fourth heading</h4>
-            <p>...</p>
-            <h4 id="scrollspyHeading5">Fifth heading</h4>
-            <p>...</p>
+ 
+        <section id="scrollspyHeading2" class="trabajos my-5 p-5" id="trabajos">
+          <div class="container">
+            <div class="subTitulo text-center">
+              <h2>Mis últimos trabajos</h2>
+              <hr >
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-md-4">
+                <div class="card">
+                  <img src="/assets/img/CVPAGES.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Curriculum</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              
+                    <a href="https://veap68.github.io/desafio-5/" target="_blank" rel="noopener noreferrer">Link</a>             
+                </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-4">
+                <div class="card">
+                  <img src="assets/img/iguanas.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Iguana Page</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://veap68.github.io/desafio-3/" target="_blank" rel="noopener noreferrer">Link</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-4">
+                <div class="card">
+                  <img src="assets/img/raven.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Landing page</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="http://https://veap68.github.io/desafio-2/" target="_blank" rel="noopener noreferrer"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-4">
+                <div class="card">
+                  <img src="assets/img/cuppon.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Cuppon</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <a href="https://veap68.github.io/desafio-4/" target="_blank" rel="noopener noreferrer"></a>
+                </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-4">
+                <div class="card">
+                  <img src="assets/img/ricomida.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Ricomida</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-4">
+                <div class="card">
+                  <img src="assets/img/dmark.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">D Mark</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <section id="scrollspyHeading3"class="contacto text-center my-5" id="contacto">
+          <div class="container">
+            <div class="subTitulo text-center">
+              <h2>Contacto</h2>
+              <hr>
+            </div>
+            <p>Quieres conocer mas de mi?</p>
+            <div class="">
+              <div class="typeform-widget" data-url="https://ehylin.typeform.com/to/wEbxDF" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=wEbxDF&utm_source=typeform.com-15274449-Free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+            </div>
+          </div>
+        </section>
+    
+    <footer class="p-5 text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <h4 class="logo-footer">Ehylin</h4>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <i class="fab fa-github" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="GitHub"></i>
+            <i class="fab fa-linkedin" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Linkedin"></i>
+            <i class="fab fa-instagram" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Instagram"></i>
+            <i class="fab fa-facebook-square" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Facebook"></i>
+          </div>
         </div>
-    </section>
-
+      </div>
+    </footer>
+    
 </body>
 
 </html>

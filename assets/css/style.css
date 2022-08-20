@@ -1,6 +1,7 @@
 body{
     background-color: black;
 }
+/*presentacion*/
 header{
     margin-top: 10%;
     background-color: black;
@@ -15,4 +16,7 @@ p{
 }
 h1{
     text-align: center;
+}
+.trabajos h2{
+    color: bisque;
 }
