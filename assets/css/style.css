@@ -1,40 +1,55 @@
-body{
+body {
     background-color: black;
 }
+
 /*presentacion*/
-header{
+header {
     margin-top: 10%;
     background-color: black;
     color: beige;
     margin-left: 0%;
     margin-right: 0%;
-   }
-header img{
+}
+
+header img {
     float: left;
 }
-p{
-    text-justify:inherit;
+
+p {
+    text-justify: inherit;
     text-align: justify;
-    
+
 }
-h1{
+
+h1 {
     text-align: center;
 }
- h2{
+
+h2 {
     color: bisque;
 }
-h4{
- color: blanchedalmond;
- text-align: left; 
+
+h4 {
+    color: blanchedalmond;
+    text-align: left;
 }
-footer{
+.card img{
+    
+
+        height: 150px;
+        
+    
+        
+        
+}
+footer {
     background-color: darkcyan;
     color: bisque;
-        background-color: var(--white);
-    }
-    
-    p.derechos {
-        font-size: 16px;
-        padding-bottom: 22px;
-        text-align: center;
-    }
+    background-color: var(--white);
+}
+
+p.derechos {
+    font-size: 16px;
+    padding-bottom: 22px;
+    text-align: center;
+}
